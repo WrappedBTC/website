@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="2px" viewBox="0 0 15 2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon - Expand/Collapse</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Partners" transform="translate(-249.000000, -393.000000)" fill-rule="nonzero">
+            <g id="HERO">
+                <g id="HERO-Content" transform="translate(249.000000, 161.000000)">
+                    <g id="Group-13" transform="translate(0.000000, 219.000000)">
+                        <g id="WBTC-Dao">
+                            <g id="Icon---Expand/Collapse">
+                                <g transform="translate(0.000000, 7.000000)">
+                                    <rect id="Rectangle" fill-opacity="0" fill="#C51112" x="0" y="0" width="15" height="15"></rect>
+                                    <path d="M13.8456803,6 C14.4831935,6 15,6.44771525 15,7 C15,7.55228475 14.4831935,8 13.8456803,8 L1.15431972,8 C0.516806543,8 0,7.55228475 0,7 C0,6.44771525 0.516806543,6 1.15431972,6 L13.8456803,6 Z" id="Path" fill="#F09242"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

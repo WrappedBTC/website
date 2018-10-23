@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="196px" height="209px" viewBox="0 0 196 209" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Image - Ethereum</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="17.8013393%" y1="12.3226244%" x2="91.0813935%" y2="94.5591518%" id="linearGradient-1">
+            <stop stop-color="#282138" offset="0%"></stop>
+            <stop stop-color="#8C4398" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="98" cy="98" r="98"></circle>
+        <linearGradient x1="45.1341622%" y1="44.7608927%" x2="11.4035729%" y2="26.3290081%" id="linearGradient-4">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-324.000000, -1622.000000)">
+            <g id="WHY-DO-WE-NEED-WBTC?" transform="translate(250.000000, 923.000000)">
+                <g id="3.-Ethereum-Node" transform="translate(74.000000, 699.000000)">
+                    <g id="Image---Ethereum">
+                        <g id="BG" transform="translate(0.000000, 13.000000)">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <g id="Mask" fill-rule="nonzero">
+                                <use fill="#282138" xlink:href="#path-2"></use>
+                                <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                            </g>
+                            <polygon id="Fill-1" fill="url(#linearGradient-4)" opacity="0.4" mask="url(#mask-3)" points="316.78769 396.59922 90.7338966 170.463069 90.7338966 -11.3638137 316.78769 214.772337"></polygon>
+                        </g>
+                        <g id="Group-15" transform="translate(35.000000, 0.319390)">
+                            <polygon id="Fill-4" fill="#6276AE" points="55.7338966 0.400617574 0 92.9101979 55.7338966 125.86248 111.467793 92.9101979"></polygon>
+                            <polygon id="Fill-5" fill="#6276AE" points="55.7338966 136.402833 0 103.481355 55.7338966 182.038299 111.498586 103.481355"></polygon>
+                            <polygon id="Fill-6" fill="#FFFFFF" opacity="0.2" points="0.000162068965 92.9106843 55.7340586 125.861345 55.7340586 0.399482686"></polygon>
+                            <polygon id="Fill-9" fill="#FFFFFF" opacity="0.1" points="0.000162068965 103.481517 55.7340586 182.038461 55.7340586 136.402995"></polygon>
+                            <polygon id="Fill-11" fill="#FFFFFF" opacity="0.15" points="55.7335724 118.005651 55.7335724 97.2939458 19.3101931 60.8575576 11.5260207 73.7806888"></polygon>
+                            <polygon id="Fill-13" fill="#FFFFFF" opacity="0.25" points="55.7335724 80.5097637 55.7335724 68.7750223 30.0326759 43.0633253 25.6195379 50.3849738"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
