@@ -48,4 +48,17 @@ $('document').ready(function() {
   $("#stackOne").click(function()  {
     togglePartnerSelect("#custodiansInfo", "#stackOne");
   });
+
+
+  var scrollTo = function($element) {
+    $('html,body').animate({scrollTop: $element.offset().top},'slow');
+  };
+
+  $("#whyButton").click(function() {
+    scrollTo($('#whySection'));
+  });
+
+  $("#whatIsButton").click(function() {
+    scrollTo($('#whatSection'));
+  })
 });

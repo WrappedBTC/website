@@ -26,7 +26,7 @@
           <a class="nav-link" href="#">What is WBTC<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Partners</a>
+          <a class="nav-link" href="./partners.html">Partners</a>
         </li>
       </ul>
     </div>
@@ -42,7 +42,7 @@
           <h2>Wrapped Bitcoin delivers the power of Bitcoin with the flexibility of an ERC20 token</h2>
           <p>WBTC is the first ERC20 token backed 1:1 with Bitcoin.</p>
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-            Signup
+            Get Updates
           </button>
         </div>
       </div>
@@ -72,6 +72,12 @@
           </g>
         </svg>
       </div>
+      <div class="learn-more">
+        <div id="whyButton" class="learn-more-container">
+          <div>Find out more about WBTC</div>
+          <div><img src="assets/icon-arrow-down.svg"></div>
+        </div>
+      </div>
     </section>
     <div class="transition">
       <div class="right-container">
@@ -81,7 +87,7 @@
         <div class="left-side"></div>
       </div>
     </div>
-    <section class="why-need container-fluid">
+    <section class="why-need container-fluid" id="whySection">
       <div class="row justify-content-md-center">
         <div class="col col-md-8">
           <h1>Why Do We Need WBTC?</h1>
@@ -112,7 +118,7 @@
         </div>
       </div>
     </section>
-    <section class="how container-fluid">
+    <section class="how container-fluid" id="whatSection">
       <div class="row justify-content-md-center">
         <div class="col col-md-8 how-row">
           <h1>How it works</h1>
@@ -127,30 +133,38 @@
           </div>
         </div>
         <div class="row col col-md-12 justify-content-md-center how-row how-content show" id="receiveContent">
-          <div class="col col-md-7">
+          <div class="col col-md-6">
             <p class="how-text"><strong>To receive WBTC</strong>, a user requests tokens from a merchant. The merchant
               then performs the required KYC / AML
               procedures and verifies the user’s identity. Once this is completed, the user and merchant execute their
               swap, with Bitcoin from the user transferring to the merchant, and WBTC from the merchant transferring to
               the
               user..</p>
+            <div class="how-diagram"><img src="assets/how-it-works-receiving.svg"></div>
           </div>
         </div>
         <div class="row col col-md-12 justify-content-md-center how-row how-content" id="mintingContent">
-          <div class="col col-md-7">
+          <div class="col col-md-6">
             <p class="how-text"><strong>Minting</strong> refers to the process of creating new wrapped tokens. Minting
               in the wrapped framework is initiated
               by a merchant and performed by a custodian.</p>
+            <div class="how-diagram"><img src="assets/how-it-works-minting.svg"></div>
           </div>
         </div>
         <div class="row col col-md-12 justify-content-md-center how-row how-content" id="burningContent">
-          <div class="col col-md-7">
+          <div class="col col-md-6">
             <p class="how-text"><strong>Burning</strong> is the action of redeeming Bitcoin for WBTC tokens, and only
               merchant addresses can do this. The
               amount to be ‘burnt’ is deducted from the merchant’s WBTC balance (on chain) and the supply of WBTC is
               then
               reduced.</p>
+            <div class="how-diagram"><img src="assets/how-it-works-burning.svg"></div>
           </div>
+        </div>
+      </div>
+      <div class="learn-more">
+        <div class="learn-more-container">
+          <button class="btn btn-primary">Download the Whitepaper</button>
         </div>
       </div>
     </section>
@@ -167,7 +181,8 @@
               <div class="carousel-item active">
                 <div class="carousel-content row">
                   <h2 class="col col-md-4">Traders</h2>
-                  <p class="col col-md-7">Limited to ERC20 tokens, decentralized exchanges suffer from low trading volume
+                  <p class="col col-md-7">Limited to ERC20 tokens, decentralized exchanges suffer from low trading
+                    volume
                     and liquidity.
                     With
                     Wrapped BTC, users experience increased liquidity and participation. The Ethereum network processes
@@ -179,7 +194,8 @@
               <div class="carousel-item">
                 <div class="carousel-content row">
                   <h2 class="col col-md-4">Institutions</h2>
-                  <p class="col col-md-7">Handling multiple cryptocurrencies across different nodes and transaction formats
+                  <p class="col col-md-7">Handling multiple cryptocurrencies across different nodes and transaction
+                    formats
                     is no longer a
                     concern
                     for decentralized application users like exchanges, wallets, and payment services. WBTC combines
@@ -192,7 +208,8 @@
               <div class="carousel-item">
                 <div class="carousel-content row">
                   <h2 class="col col-md-4">Decentralized Applications (Dapps)</h2>
-                  <p class="col col-md-7">Decentralized applications can now leverage Bitcoin payments in smart contracts
+                  <p class="col col-md-7">Decentralized applications can now leverage Bitcoin payments in smart
+                    contracts
                     for lending
                     protocols,
                     funds,
@@ -227,27 +244,42 @@
           <p>Starting January 2019</p>
         </div>
         <div class="row col col-md-12 justify-content-md-center">
-          <div class="col col-md-7"></div>
+          <div class="col col-md-8">
+            <div class="image-block"><img src="assets/logo-kyber-network-grey.svg"></div>
+            <div class="image-block"><img src="assets/logo-airwsap-grey.svg"></div>
+            <div class="image-block"><img src="assets/logo-republic-protocol-grey.svg"></div>
+            <div class="image-block"><img src="assets/logo-ddex-grey.svg"></div>
+            <div class="image-block"><img src="assets/logo-bitgo-grey.svg"></div>
+            <div class="image-block"><img src="assets/logo-kyber-swap-grey.svg"></div>
+            <div class="image-block"><img src="assets/logo-hydro-grey.svg"></div>
+            <div class="image-block"><img src="assets/logo-set-protocol-grey.svg"></div>
+            <div class="image-block"><img src="assets/logo-compound-grey.svg"></div>
+            <div class="image-block"><img src="assets/logo-makerdao-grey.svg"></div>
+            <div class="image-block"><img src="assets/logo-dharma-grey.svg"></div>
+            <div class="image-block"><img src="assets/logo-prycto-grey.svg"></div>
+            <div class="image-block"><img src="assets/logo-idex-grey.svg"></div>
+            <div class="image-block"><img src="assets/logo-gnosis-grey.svg"></div>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-      <div class="row justify-content-md-center footer-row">
-        <div class="col col-md-4 footer-content">
-          <img src="assets/logo-wbtc.svg">
-          <p>Wrapped Bitcoin (WBTC) is the first ERC20 token backed 1:1 with Bitcoin</p>
-        </div>
-        <div class="col col-md-2">
-          <div class="footer-link"><a>What is WBTC?</a></div>
-          <div class="footer-link"><a>Partners</a></div>
-        </div>
-        <div class="col col-md-2">
-          <div class="footer-link"><a>Contact us</a></div>
-          <div class="footer-link"><a>Telegram</a></div>
-        </div>
+    <div class="row justify-content-md-center footer-row">
+      <div class="col col-md-4 footer-content">
+        <img src="assets/logo-wbtc.svg">
+        <p>Wrapped Bitcoin (WBTC) is the first ERC20 token backed 1:1 with Bitcoin</p>
       </div>
+      <div class="col col-md-2">
+        <div class="footer-link"><a id="whatIsButton">What is WBTC?</a></div>
+        <div class="footer-link"><a href="./partners.html">Partners</a></div>
+      </div>
+      <div class="col col-md-2">
+        <div class="footer-link"><a data-toggle="modal" data-target="#exampleModal">Contact us</a></div>
+        <div class="footer-link"><a>Telegram</a></div>
+      </div>
+    </div>
   </footer>
 
   <!-- Modal -->
@@ -255,43 +287,43 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h3 class="modal-title" id="exampleModalLabel">Subscribe to our mailing list</h3>
+          <h3 class="modal-title" id="exampleModalLabel">Get more info on WBTC</h3>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          <!-- Begin Mailchimp Signup Form -->
           <div id="mc_embed_signup">
             <form action="https://bitgo.us19.list-manage.com/subscribe/post?u=7ff4a7177706c9d17f9e67de2&amp;id=44975c3c5b"
               method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
               novalidate>
-              <div id="mc_embed_signup_scroll">
-                <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-                <div class="mc-field-group">
+                <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="mce-FNAME">First Name </label>
+                  <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="mce-LNAME">Last Name </label>
+                  <input type="text" value="" name="LNAME" class="form-control" id="mce-LNAME">
+                </div>
+                </div>
+                <div class="form-row">
+                <div class="form-group col-md-6">
                   <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
                   </label>
-                  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                  <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="required">
                 </div>
-                <div class="mc-field-group">
-                  <label for="mce-FNAME">First Name </label>
-                  <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-                </div>
-                <div class="mc-field-group">
-                  <label for="mce-LNAME">Last Name </label>
-                  <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-                </div>
-                <div class="mc-field-group">
+                <div class="form-group col-md-6">
                   <label for="mce-COMPANY">Company </label>
-                  <input type="text" value="" name="COMPANY" class="" id="mce-COMPANY">
+                  <input type="text" value="" name="COMPANY" class="form-control" id="mce-COMPANY">
                 </div>
-                <div class="mc-field-group input-group">
-                  <strong>Merchant Information </strong>
-                  <ul>
-                    <li><input type="checkbox" value="1" name="group[1059][1]" id="mce-group[1059]-1059-0"><label for="mce-group[1059]-1059-0">Also
-                        Receive Information About Being a Merchant</label></li>
-                  </ul>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-12">
+                  <label for="mce-MESSAGE">Have a question?</label>
+                  <textarea value="" name="MESSAGE" class="form-control" id="mce-MESSAGE" rows="3"></textarea>
                 </div>
+              </div>
                 <div id="mce-responses" class="clear">
                   <div class="response" id="mce-error-response" style="display:none"></div>
                   <div class="response" id="mce-success-response" style="display:none"></div>
@@ -299,22 +331,18 @@
                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7ff4a7177706c9d17f9e67de2_44975c3c5b"
                     tabindex="-1" value=""></div>
-              </div>
+            </form>
           </div>
-
-          <!--End mc_embed_signup-->
         </div>
         <div class="modal-footer">
-          <div class="clear"></div>
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-          <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+          <input type="submit" value="Keep me Informed" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
         </div>
         </form>
       </div>
     </div>
   </div>
   <!-- Latest compiled and minified JavaScript -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
