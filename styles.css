@@ -89,6 +89,18 @@ h2 {
   border: 1px solid #B36E31;
 }
 
+@media only screen and (max-width: 767px) {
+  .btn-group {
+    display: block;
+  }
+
+  .btn-group .btn {
+    display: block;
+    float: none;
+    width: 100% !important;
+  }
+}
+
 .intro {
   /* media */
   min-height: 630px;
@@ -212,6 +224,10 @@ h2 {
   margin-top: 20px;
 }
 
+.why-row img {
+  margin-bottom: 10px;
+}
+
 .how {
   background: #f6f6f6;
   padding-top: 100px;
@@ -235,6 +251,10 @@ h2 {
   text-align: center;
   margin-top: 100px;
   margin-bottom: 100px;
+}
+
+.how-diagram img {
+  width: 100%;
 }
 
 .btn.btn-how {
@@ -386,7 +406,7 @@ main {
 }
 
 .carousel-inner {
-  height: 300px;
+  min-height: 335px;
 }
 
 .partners {
@@ -400,7 +420,7 @@ main {
 
 .partner-stack {
   position: absolute;
-  top: 150px;
+  top: 200px;
   right: 200px;
 }
 
@@ -601,4 +621,27 @@ main {
 
 .modal.fade, .modal-open {
   padding-right: 0 !important;
+}
+
+
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 38px;
+  }
+  .carousel-content {
+    margin: 50px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+  .learn-more .btn {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .carousel-content h2 {
+    text-align: left;
+  }
 }
