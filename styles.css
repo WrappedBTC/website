@@ -45,7 +45,7 @@ h2 {
 }
 
 .navbar {
-  height: 170px;
+  height: 120px;
 }
 
 .navbar-brand {
@@ -54,7 +54,7 @@ h2 {
 
 .navbar a {
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .nav-link {
@@ -103,8 +103,8 @@ h2 {
 
 .intro {
   /* media */
-  min-height: 630px;
-  padding-top: 86px;
+  min-height: 560px;
+  padding-top: 75px;
   /* end media */
   background: #282138;
   position: relative;
@@ -289,7 +289,7 @@ h2 {
 }
 
 .how-text {
-  font-size: 22px;
+  font-size: 18px;
   letter-spacing: 0.11px;
   line-height: 38px;
 }
