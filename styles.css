@@ -36,6 +36,7 @@ h2 {
   font-weight: 200;
 }
 
+
 .center-content {
   text-align: center;
 }
@@ -227,6 +228,8 @@ h2 {
 
 .why-row img {
   margin-bottom: 10px;
+  max-width: 250px;
+  width: 100%;
 }
 
 .how {
@@ -299,7 +302,7 @@ h2 {
 }
 
 .how-content.show {
-  display: flex;
+  display: block;
 }
 
 .developed {
@@ -325,11 +328,17 @@ h2 {
 }
 
 .image-block {
-  width: 220px;
   min-height: 100px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  padding-right: 15px;
+}
+
+
+.image-block img {
+  width: 100%;
+  max-width: 125px;
 }
 
 .footer {
@@ -371,6 +380,7 @@ main {
 .carousel-control-next,
 .carousel-control-prev {
   transition: opacity 0.25s ease-in-out;
+  width: 50px;
 }
 
 .carousel-control-prev-icon,
@@ -394,7 +404,7 @@ main {
 }
 
 .carousel-content {
-  margin: 50px 100px;
+  margin: 50px;
 }
 
 .carousel-content h2 {
@@ -409,20 +419,18 @@ main {
 .carousel-inner {
   min-height: 335px;
 }
-
+@media only screen and (min-width: 992px) {
+  .carousel-inner {
+    min-height: 175px;
+  }
+}
 .partners {
   text-align: left;
 }
 
 .partner-info {
   color: white;
-  margin-top: 80px;
-}
-
-.partner-stack {
-  position: absolute;
-  top: 200px;
-  right: 200px;
+  margin-top: 40px;
 }
 
 .partner-info .header {
@@ -485,9 +493,16 @@ main {
   margin-top: 20px;
 }
 
+.partner-logo img {
+  width: 100%;
+  max-width: 400px;
+}
+@media only screen and (min-width: 768px){
 .merch-cust .partner-logo+.partner-logo {
   margin-left: 20px;
 }
+}
+
 
 .custodians {
   margin-top: 100px;
@@ -501,11 +516,11 @@ main {
 }
 
 .stack-one {
-  transform: translate(0, 10px);
+  transform: translate(10px, 10px);
 }
 
 .stack-three {
-  transform: translate(0, -190px);
+  transform: translate(10px, -190px);
 }
 
 .stack-one.selected,
@@ -518,28 +533,28 @@ main {
 }
 
 .stack-one.selected+.stack-two {
-  transform: translate(0, -120px);
+  transform: translate(10px, -120px);
 }
 
 .stack-two {
-  transform: translate(0, -60px);
+  transform: translate(10px, -60px);
 }
 
 .stacks.unselected .stack-two {
-  transform: translate(0, -90px);
+  transform: translate(10px, -90px);
 }
 .stacks.unselected .stack-one {
-  transform: translate(0, -10px);
+  transform: translate(10px, -10px);
 }
 .stacks.unselected .stack-three {
-  transform: translate(0, -170px);
+  transform: translate(10px, -170px);
 }
 
 .stacks .stack-two.selected {
-  transform: translate(0, -90px);
+  transform: translate(10px, -90px);
 }
 
-@media (min-width: 576px) {
+@media only screen and (min-width: 576px) {
   .modal-dialog {
     max-width: 600px;
     margin: 7.75rem auto;
@@ -662,5 +677,11 @@ main {
   .minimize,
   .partner-desc.hidden .expand {
     display: none;
+  }
+  .partner-info {
+    margin-top: 10px;
+  }
+  .partner-desc {
+    margin-bottom: 5px;
   }
 }

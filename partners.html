@@ -14,24 +14,24 @@
 
 <body>
   <header>
-  <nav class="navbar navbar-expand-md navbar-dark">
-    <a class="navbar-brand" href="#"><img src="assets/logo-wbtc.svg"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <div class="mr-auto"></div>
-      <ul class="navbar-nav mt-2 mt-md-0">
-        <li class="nav-item">
-          <a class="nav-link" href="./index.html">What is WBTC<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Partners</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <a class="navbar-brand" href="#"><img src="assets/logo-wbtc.svg"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="mr-auto"></div>
+        <ul class="navbar-nav mt-2 mt-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">What is WBTC<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Partners</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
 
   <!-- Begin page content -->
@@ -40,53 +40,62 @@
       <div class="row justify-content-md-center">
         <div class="col col-md-8">
           <h1 class="partners">Partners</h1>
-          <p>Welcome to the first token that makes Bitcoin compatible with the Ethereum chain, jointly developed by BitGo, Kyber, Republic Protocol, and a community of partners.</p>
+          <p>Welcome to the first token that makes Bitcoin compatible with the Ethereum chain, jointly developed by
+            BitGo, Kyber, Republic Protocol, and a community of partners.</p>
         </div>
       </div>
-      <div class="partner-info row">
-        <div class="partner-desc col-md-5 offset-md-2 row" id="wbtcdaoInfo">
-          <div class="minimize col-md-1"><img src="assets/icon-collapse.svg"></div>
-          <div class="expand col-md-1"><img src="assets/icon-expand.svg"></div>
-          <div class="header col-md-5">WBTC DAO</div>
-          <div class="desc col-md-11 offset-md-1">The addition and removal of merchants and custodians will be controlled by a
-            multi-signature contract. Holders of the keys to the multi-sig contract will be held by institutions as
-            part of the WBTC DAO.</div>
-        </div>
-        <div class="partner-desc col-md-5 offset-md-2 row hidden" id="merchantsInfo">
-          <div class="minimize col-md-1"><img src="assets/icon-collapse.svg"></div>
-          <div class="expand col-md-1"><img src="assets/icon-expand.svg"></div>
-          <div class="header col-md-5">Merchants</div>
-          <div class="desc col-md-11 offset-md-1">The key institution or party from which wrapped tokens will be minted and burnt. Merchants
-            play a key role in distribution of the wrapped token. </div>
-        </div>
-        <div class="partner-desc col-md-5 offset-md-2 row hidden" id="custodiansInfo">
-          <div class="minimize col-md-1"><img src="assets/icon-collapse.svg"></div>
-          <div class="expand col-md-1"><img src="assets/icon-expand.svg"></div>
-          <div class="header col-md-5">Custodians</div>
-          <div class="desc col-md-11 offset-md-1">Custodians exchange assets for wrapped tokens with merchants.</div>
-        </div>
-      </div>
-      <div class="partner-stack">
-        <svg width="400px" height="450px" viewBox="0 0 350 500" version="1.1" xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink">
-          <g class="stacks" id="Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-            <g id="stackOne" class="stack stack-one">
-              <g>
-                <path d="M199.715265,247.177259 L385.775627,345.527925 C390.6583,348.108884 392.524208,354.159353 389.94325,359.042026 C389.004279,360.818376 387.551978,362.270677 385.775627,363.209648 L199.715265,461.560314 C193.867626,464.65135 186.869947,464.65135 181.022307,461.560314 L-5.03805468,363.209648 C-9.92072769,360.628689 -11.7866357,354.57822 -9.20567679,349.695547 C-8.26670613,347.919197 -6.81440483,346.466895 -5.03805468,345.527925 L181.022307,247.177259 C186.869947,244.086223 193.867626,244.086223 199.715265,247.177259 Z"></path>
+      <div class="row justify-content-md-center">
+        <div class="col-md-8">
+          <div class="row">
+          <div class="partner-info col-sm-8">
+            <div class="partner-desc row" id="wbtcdaoInfo">
+              <div class="minimize col-md-1"><img src="assets/icon-collapse.svg"></div>
+              <div class="expand col-md-1"><img src="assets/icon-expand.svg"></div>
+              <div class="header col-md-11">WBTC DAO</div>
+              <div class="desc col-md-11 offset-md-1">The addition and removal of merchants and custodians will be
+                controlled by a
+                multi-signature contract. Holders of the keys to the multi-sig contract will be held by institutions as
+                part of the WBTC DAO.</div>
+            </div>
+            <div class="partner-desc row hidden" id="merchantsInfo">
+              <div class="minimize col-md-1"><img src="assets/icon-collapse.svg"></div>
+              <div class="expand col-md-1"><img src="assets/icon-expand.svg"></div>
+              <div class="header col-md-11">Merchants</div>
+              <div class="desc col-md-11 offset-md-1">The key institution or party from which wrapped tokens will be
+                minted and burnt. Merchants
+                play a key role in distribution of the wrapped token. </div>
+            </div>
+            <div class="partner-desc row hidden" id="custodiansInfo">
+              <div class="minimize col-md-1"><img src="assets/icon-collapse.svg"></div>
+              <div class="expand col-md-1"><img src="assets/icon-expand.svg"></div>
+              <div class="header col-md-11">Custodians</div>
+              <div class="desc col-md-11 offset-md-1">Custodians exchange assets for wrapped tokens with merchants.</div>
+            </div>
+          </div>
+          <div class="partner-stack col-sm-4">
+            <svg viewBox="0 0 425 500" version="1.1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g class="stacks" id="Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="stackOne" class="stack stack-one">
+                  <g>
+                    <path d="M199.715265,247.177259 L385.775627,345.527925 C390.6583,348.108884 392.524208,354.159353 389.94325,359.042026 C389.004279,360.818376 387.551978,362.270677 385.775627,363.209648 L199.715265,461.560314 C193.867626,464.65135 186.869947,464.65135 181.022307,461.560314 L-5.03805468,363.209648 C-9.92072769,360.628689 -11.7866357,354.57822 -9.20567679,349.695547 C-8.26670613,347.919197 -6.81440483,346.466895 -5.03805468,345.527925 L181.022307,247.177259 C186.869947,244.086223 193.867626,244.086223 199.715265,247.177259 Z"></path>
+                  </g>
+                </g>
+                <g id="stackTwo" class="stack stack-two">
+                  <g>
+                    <path d="M199.715265,247.177259 L385.775627,345.527925 C390.6583,348.108884 392.524208,354.159353 389.94325,359.042026 C389.004279,360.818376 387.551978,362.270677 385.775627,363.209648 L199.715265,461.560314 C193.867626,464.65135 186.869947,464.65135 181.022307,461.560314 L-5.03805468,363.209648 C-9.92072769,360.628689 -11.7866357,354.57822 -9.20567679,349.695547 C-8.26670613,347.919197 -6.81440483,346.466895 -5.03805468,345.527925 L181.022307,247.177259 C186.869947,244.086223 193.867626,244.086223 199.715265,247.177259 Z"></path>
+                  </g>
+                </g>
+                <g id="stackThree" class="stack stack-three selected">
+                  <g>
+                    <path d="M199.715265,247.177259 L385.775627,345.527925 C390.6583,348.108884 392.524208,354.159353 389.94325,359.042026 C389.004279,360.818376 387.551978,362.270677 385.775627,363.209648 L199.715265,461.560314 C193.867626,464.65135 186.869947,464.65135 181.022307,461.560314 L-5.03805468,363.209648 C-9.92072769,360.628689 -11.7866357,354.57822 -9.20567679,349.695547 C-8.26670613,347.919197 -6.81440483,346.466895 -5.03805468,345.527925 L181.022307,247.177259 C186.869947,244.086223 193.867626,244.086223 199.715265,247.177259 Z"></path>
+                  </g>
+                </g>
               </g>
-            </g>
-            <g id="stackTwo" class="stack stack-two">
-              <g>
-                <path d="M199.715265,247.177259 L385.775627,345.527925 C390.6583,348.108884 392.524208,354.159353 389.94325,359.042026 C389.004279,360.818376 387.551978,362.270677 385.775627,363.209648 L199.715265,461.560314 C193.867626,464.65135 186.869947,464.65135 181.022307,461.560314 L-5.03805468,363.209648 C-9.92072769,360.628689 -11.7866357,354.57822 -9.20567679,349.695547 C-8.26670613,347.919197 -6.81440483,346.466895 -5.03805468,345.527925 L181.022307,247.177259 C186.869947,244.086223 193.867626,244.086223 199.715265,247.177259 Z"></path>
-              </g>
-            </g>
-            <g id="stackThree" class="stack stack-three selected">
-              <g>
-                <path d="M199.715265,247.177259 L385.775627,345.527925 C390.6583,348.108884 392.524208,354.159353 389.94325,359.042026 C389.004279,360.818376 387.551978,362.270677 385.775627,363.209648 L199.715265,461.560314 C193.867626,464.65135 186.869947,464.65135 181.022307,461.560314 L-5.03805468,363.209648 C-9.92072769,360.628689 -11.7866357,354.57822 -9.20567679,349.695547 C-8.26670613,347.919197 -6.81440483,346.466895 -5.03805468,345.527925 L181.022307,247.177259 C186.869947,244.086223 193.867626,244.086223 199.715265,247.177259 Z"></path>
-              </g>
-            </g>
-          </g>
-        </svg>
+            </svg>
+          </div>
+        </div>
+        </div>
       </div>
     </section>
     <div class="transition">
@@ -98,38 +107,38 @@
       </div>
     </div>
     <section class="merch-cust container-fluid">
-      <div class="row justify-content-md-center">
+      <div class="row justify-content-center">
         <div class="col col-md-8">
           <h1>Merchants</h1>
           <p>Merchants perform key roles for the WBTC community and are sources of token distribution. They interact
             with custodians in order to mint and burn WBTC and provide KYC/AML for users.</p>
         </div>
       </div>
-      <div class="row justify-content-md-center">
-        <div class="col col-md-4 partner-logo">
+      <div class="row justify-content-center">
+        <div class="col-md-4 col-sm-12 partner-logo">
           <img src="assets/logo-kyber-network.svg">
         </div>
-        <div class="col col-md-4 partner-logo">
+        <div class="col-md-4 col-sm-12 partner-logo">
           <img src="assets/logo-republic-protocol.svg">
         </div>
       </div>
-      <div class="row justify-content-md-center custodians">
+      <div class="row justify-content-center custodians">
         <div class="col col-md-8">
           <h1>Custodians</h1>
           <p>The qualified custodian provides reliable, institutional-grade security for your WBTC.</p>
         </div>
       </div>
-      <div class="row justify-content-md-center">
-        <div class="col col-md-4 partner-logo">
+      <div class="row">
+        <div class="col col-md-4 partner-logo offset-md-2">
           <img src="assets/logo-bitgo.svg">
         </div>
-        <div class="col col-md-4"></div>
       </div>
     </section>
   </main>
 
 
   <footer class="footer">
+    <div class="container-fluid">
       <div class="row justify-content-md-center footer-row">
         <div class="col col-md-4 footer-content">
           <img src="assets/logo-wbtc.svg">
@@ -144,69 +153,71 @@
           <div class="footer-link"><a>Telegram</a></div>
         </div>
       </div>
+    </div>
   </footer>
 
 
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title" id="exampleModalLabel">Get more info on WBTC</h3>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <form action="https://bitgo.us19.list-manage.com/subscribe/post?u=7ff4a7177706c9d17f9e67de2&amp;id=44975c3c5b"
-            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
-            novalidate>
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="exampleModalLabel">Get more info on WBTC</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <form action="https://bitgo.us19.list-manage.com/subscribe/post?u=7ff4a7177706c9d17f9e67de2&amp;id=44975c3c5b"
+          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+          novalidate>
           <div class="modal-body">
             <div id="mc_embed_signup">
-                  <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="mce-FNAME">First Name </label>
-                    <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME">
-                  </div>
-                  <div class="form-group col-md-6">
-                    <label for="mce-LNAME">Last Name </label>
-                    <input type="text" value="" name="LNAME" class="form-control" id="mce-LNAME">
-                  </div>
-                  </div>
-                  <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
-                    </label>
-                    <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="required">
-                  </div>
-                  <div class="form-group col-md-6">
-                    <label for="mce-COMPANY">Company </label>
-                    <input type="text" value="" name="COMPANY" class="form-control" id="mce-COMPANY">
-                  </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="mce-FNAME">First Name </label>
+                  <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME">
                 </div>
-                <div class="form-row">
-                  <div class="form-group col-md-12">
-                    <label for="mce-MESSAGE">Have a question?</label>
-                    <textarea value="" name="MESSAGE" class="form-control" id="mce-MESSAGE" rows="3"></textarea>
-                  </div>
+                <div class="form-group col-md-6">
+                  <label for="mce-LNAME">Last Name </label>
+                  <input type="text" value="" name="LNAME" class="form-control" id="mce-LNAME">
                 </div>
-                  <div id="mce-responses" class="clear">
-                    <div class="response" id="mce-error-response" style="display:none"></div>
-                    <div class="response" id="mce-success-response" style="display:none"></div>
-                  </div>
-                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7ff4a7177706c9d17f9e67de2_44975c3c5b"
-                      tabindex="-1" value=""></div>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <input type="submit" value="Keep me Informed" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
-                  </div>
-          </form>
-        </div>
-        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-        <script type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[5] = 'COMPANY'; ftypes[5] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[6] = 'MESSAGE'; ftypes[6] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
+                  </label>
+                  <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL"
+                    placeholder="required">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="mce-COMPANY">Company </label>
+                  <input type="text" value="" name="COMPANY" class="form-control" id="mce-COMPANY">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-12">
+                  <label for="mce-MESSAGE">Have a question?</label>
+                  <textarea value="" name="MESSAGE" class="form-control" id="mce-MESSAGE" rows="3"></textarea>
+                </div>
+              </div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7ff4a7177706c9d17f9e67de2_44975c3c5b"
+                  tabindex="-1" value=""></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <input type="submit" value="Keep me Informed" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+          </div>
+        </form>
       </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[5] = 'COMPANY'; ftypes[5] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[6] = 'MESSAGE'; ftypes[6] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
     </div>
+  </div>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
