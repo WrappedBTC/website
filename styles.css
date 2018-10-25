@@ -46,7 +46,7 @@ h2 {
 }
 
 .navbar {
-  height: 120px;
+  height: 130px;
 }
 
 .navbar-brand {
@@ -112,9 +112,9 @@ h2 {
   z-index: 5;
 }
 
-.intro h1,
-.supported h1 {
+.intro h1 {
   color: #F09242;
+  text-align: left;
 }
 
 .intro p,
@@ -164,7 +164,7 @@ h2 {
 .transition {
   height: 115px;
   position: relative;
-  background-color: #ffffff;
+  background-color: transparent;
 }
 
 .right-container,
@@ -191,7 +191,7 @@ h2 {
 .left-side {
   width: 100%;
   height: 88px;
-  background: #F09242 url(assets/background-grid.svg) 0px 40px repeat;
+  background: #F09242;
   clip-path: polygon(0 0, 65% 0, 0% 100%, 0 100%);
 }
 
@@ -202,12 +202,12 @@ h2 {
 
 .second-transition .left-container,
 .second-transition .right-container {
-  bottom: 0;
+  bottom: -1px;
   filter: drop-shadow(-2px -2px 8px rgba(0, 0, 0, 0.3));
 }
 
 .second-transition .right-side {
-  background: #656171;
+  background: #282138;
   clip-path: polygon(0 0, 0 100%, 100% 100%, 0 15px);
 }
 
@@ -313,9 +313,10 @@ h2 {
 
 .supported {
   position: relative;
-  background: #656171;
-  padding-top: 100px;
+  background: url(assets/background-grid.png) 0px 40px repeat;
+  padding-top: 10px;
   padding-bottom: 100px;
+  box-shadow: inset 0px -7px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 .supported p {
@@ -323,8 +324,13 @@ h2 {
   letter-spacing: 0.1px;
   line-height: 27px;
   text-align: center;
-  color: #ffffff;
+  color: #282138;
   text-transform: uppercase;
+}
+
+.image-block-container {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .image-block {
@@ -650,9 +656,17 @@ main {
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
   h1 {
     font-size: 38px;
+  }
+  h2 {
+    font-size: 18px;
+    margin-top: 30px;
+  }
+  .intro {
+    padding-top: 5px;
+    min-height: 450px;
   }
   .carousel-content {
     margin: 50px;
@@ -683,5 +697,11 @@ main {
   }
   .partner-desc {
     margin-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .intro {
+    min-height: 425px;
   }
 }
