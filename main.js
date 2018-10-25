@@ -21,10 +21,17 @@ $('document').ready(function() {
   });
 
   var togglePartnerSelect = function(infoId, stackId) {
-    $(".partner-desc").addClass("hidden");
-    $(infoId).removeClass("hidden");
-    $(".stack").removeClass("selected");
-    $(stackId).addClass("selected");
+    if($(infoId).hasClass("hidden")){
+      $(".stacks").removeClass("unselected");
+      $(".partner-desc").addClass("hidden");
+      $(infoId).removeClass("hidden");
+      $(".stack").removeClass("selected");
+      $(stackId).addClass("selected");
+    } else {
+      $(".stacks").addClass("unselected");
+      $(".partner-desc").addClass("hidden");
+      $(".stack").removeClass("selected");
+    }
   }
 
   $("#wbtcdaoInfo").click(function()  {
