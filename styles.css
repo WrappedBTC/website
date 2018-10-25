@@ -143,6 +143,7 @@ h2 {
   position: absolute;
   bottom: 0;
   text-align: center;
+  z-index: 2;
 }
 
 .learn-more-container {
@@ -504,7 +505,7 @@ main {
 }
 
 .stack-three {
-  transform: translate(0, -180px);
+  transform: translate(0, -190px);
 }
 
 .stack-one.selected,
@@ -522,6 +523,16 @@ main {
 
 .stack-two {
   transform: translate(0, -60px);
+}
+
+.stacks.unselected .stack-two {
+  transform: translate(0, -90px);
+}
+.stacks.unselected .stack-one {
+  transform: translate(0, -10px);
+}
+.stacks.unselected .stack-three {
+  transform: translate(0, -170px);
 }
 
 .stacks .stack-two.selected {
@@ -643,5 +654,13 @@ main {
 @media only screen and (max-width: 576px) {
   .carousel-content h2 {
     text-align: left;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .partner-stack,
+  .minimize,
+  .partner-desc.hidden .expand {
+    display: none;
   }
 }
