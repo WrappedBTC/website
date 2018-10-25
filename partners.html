@@ -78,7 +78,7 @@
         <div class="col-md-8">
           <div class="row">
             <div class="partner-info col-sm-8">
-              <div class="partner-desc row" id="wbtcdaoInfo">
+              <div class="partner-desc row hidden" id="wbtcdaoInfo">
                 <div class="minimize col-md-1"><img src="assets/icon-collapse.svg" alt="Collapse WBTC DAO information"></div>
                 <div class="expand col-md-1"><img src="assets/icon-expand.svg" alt="Expand WBTC DAO information"></div>
                 <div class="header col-md-11">WBTC DAO</div>
@@ -95,6 +95,11 @@
                 <div class="expand col-md-1"><img src="assets/icon-expand.svg" alt="Expand custodians information"></div>
                 <div class="header col-md-11">Custodians</div>
                 <div class="desc col-md-11 offset-md-1">Custodians exchange assets for wrapped tokens with merchants.</div>
+              </div>
+              <div class="partner-join">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#partnerModal">
+                  Join
+                </button>
               </div>
             </div>
             <div class="partner-stack col-sm-4">
@@ -140,7 +145,7 @@
       </div>
       <div class="row justify-content-center">
         <div class="col-md-4 col-sm-12 partner-logo">
-          <img src="assets/logo-kyber-network.svg" alt="Kyber Network logo">
+          <img class="kyber" src="assets/logo-kyber-network.svg" alt="Kyber Network logo">
         </div>
         <div class="col-md-4 col-sm-12 partner-logo">
           <img src="assets/logo-republic-protocol.svg" alt="Republic Protocol logo">
@@ -149,12 +154,12 @@
       <div class="row justify-content-center custodians">
         <div class="col col-md-8">
           <h1>Custodians</h1>
-          <p>The qualified custodian provides reliable, institutional-grade security for your WBTC.</p>
+          <p>The qualified custodian provides reliable, institutional-grade security for your WBTC. All WBTC issued will be fully backed and verified through on-chain proof of reserves.</p>
         </div>
       </div>
       <div class="row">
         <div class="col col-md-4 partner-logo offset-md-2">
-          <img src="assets/logo-bitgo.svg" alt="BitGo logo">
+          <img class="bitgo" src="assets/logo-bitgo.svg" alt="BitGo logo">
         </div>
       </div>
     </section>
@@ -181,16 +186,16 @@
 
 
   <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="partnerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h3 class="modal-title" id="exampleModalLabel">Get more info on WBTC</h3>
+          <h3 class="modal-title" id="exampleModalLabel">Join the WBTC network</h3>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <form action="https://bitgo.us19.list-manage.com/subscribe/post?u=7ff4a7177706c9d17f9e67de2&amp;id=44975c3c5b"
+        <form action="https://bitgo.us19.list-manage.com/subscribe/post?u=7ff4a7177706c9d17f9e67de2&amp;id=9e8945b50a"
           method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
           novalidate>
           <div class="modal-body">
@@ -219,7 +224,7 @@
               </div>
               <div class="form-row">
                 <div class="form-group col-md-12">
-                  <label for="mce-MESSAGE">Have a question?</label>
+                  <label for="mce-MESSAGE">Comments</label>
                   <textarea value="" name="MESSAGE" class="form-control" id="mce-MESSAGE" rows="3"></textarea>
                 </div>
               </div>
@@ -238,7 +243,7 @@
         </form>
       </div>
       <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-      <script type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[5] = 'COMPANY'; ftypes[5] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[6] = 'MESSAGE'; ftypes[6] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+      <script type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[5] = 'COMPANY'; ftypes[5] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'MESSAGE'; ftypes[5] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
     </div>
   </div>
   <!-- Latest compiled and minified JavaScript -->
