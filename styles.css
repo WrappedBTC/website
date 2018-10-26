@@ -254,7 +254,7 @@ h2 {
 }
 
 .how-row {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .how-diagram {
@@ -314,7 +314,7 @@ h2 {
 .developed {
   background: transparent;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 
 .supported {
@@ -441,7 +441,6 @@ main {
 }
 
 .partner-info {
-  color: white;
   margin-top: 40px;
 }
 
@@ -455,7 +454,6 @@ main {
 }
 
 .partner-info .desc {
-  color: #FFFFFF;
   font-size: 16px;
   letter-spacing: 0.08px;
   line-height: 30px;
@@ -471,6 +469,7 @@ main {
 .partner-desc .desc {
   height: 150px;
   visibility: visible;
+  padding-top: 10px;
 }
 
 .partner-desc .expand {
@@ -535,7 +534,7 @@ main {
 }
 
 .stack {
-  fill: rgba(255, 255, 255, 0.2);
+  fill: #f2f1f3;
   fill-rule: nonzero;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
